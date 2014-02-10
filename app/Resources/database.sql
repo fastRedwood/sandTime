@@ -12,11 +12,6 @@ SET time_zone = "+00:00";
 -- 数据库: Database: `sand_time_dev`
 --
 
--- --------------------------------------------------------
-
---
--- 表的结构 `log`
---
 
 CREATE TABLE IF NOT EXISTS `log` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -31,11 +26,6 @@ CREATE TABLE IF NOT EXISTS `log` (
   KEY `userId` (`userId`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
--- --------------------------------------------------------
-
---
--- 表的结构 `session`
---
 
 CREATE TABLE IF NOT EXISTS `session` (
   `session_id` varchar(255) NOT NULL,
@@ -43,11 +33,7 @@ CREATE TABLE IF NOT EXISTS `session` (
   `session_time` int(11) NOT NULL,
   PRIMARY KEY (`session_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
--- --------------------------------------------------------
 
---
--- 表的结构 `user`
---
 
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -63,11 +49,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `loginIp` varchar(64) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
--- --------------------------------------------------------
 
---
--- 表的结构 `user_token`
---
 
 CREATE TABLE IF NOT EXISTS `user_token` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
