@@ -10,6 +10,6 @@ class DefaultController extends BaseController
     {
     	$user = $this->getCurrentUser();
     	// var_dump($user);
-        return $this->render('RedwoodWebBundle:Default:index.html.twig', array('name' => 'testtest'));
+        return $this->render('RedwoodWebBundle:Default:index.html.twig');
     }
 }
