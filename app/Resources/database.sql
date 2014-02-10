@@ -9,7 +9,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- 数据库: `fastnote_dev`
+-- 数据库: Database: `sand_time_dev`
 --
 
 -- --------------------------------------------------------
