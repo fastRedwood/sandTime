@@ -15,6 +15,7 @@
 /vendor/
 /bin/
 /composer.phar
+/composer.lock
 /etc/sublimetext2/fastnote.sublime-workspace
 /web/files/*
 !/web/files/.gitkeep
